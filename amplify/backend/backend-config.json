@@ -1,0 +1,11 @@
+{
+  "auth": {},
+  "storage": {
+    "wattitest2": {
+      "service": "DynamoDB",
+      "serviceType": "imported",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": []
+    }
+  }
+}

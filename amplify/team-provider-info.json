@@ -1,0 +1,26 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-nuxtsamplebackend-dev-220323-authRole",
+      "UnauthRoleArn": "arn:aws:iam::353206203634:role/amplify-nuxtsamplebackend-dev-220323-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::353206203634:role/amplify-nuxtsamplebackend-dev-220323-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-nuxtsamplebackend-dev-220323-deployment",
+      "UnauthRoleName": "amplify-nuxtsamplebackend-dev-220323-unauthRole",
+      "StackName": "amplify-nuxtsamplebackend-dev-220323",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:353206203634:stack/amplify-nuxtsamplebackend-dev-220323/0d1fa720-e0b6-11eb-ac4d-0add58faceed",
+      "AmplifyAppId": "dbz2pbnlvf3bc"
+    },
+    "categories": {
+      "storage": {
+        "wattitest2": {
+          "tableName": "wattitest2",
+          "region": "ap-northeast-1",
+          "arn": "arn:aws:dynamodb:ap-northeast-1:353206203634:table/wattitest2",
+          "partitionKeyName": "uuid",
+          "partitionKeyType": "S"
+        }
+      }
+    }
+  }
+}
