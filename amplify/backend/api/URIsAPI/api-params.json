@@ -1,0 +1,41 @@
+{
+  "paths": [
+    {
+      "name": "/uris",
+      "lambdaFunction": "URIsFunction",
+      "privacy": {
+        "protected": true,
+        "auth": [
+          "/GET"
+        ],
+        "unauth": [
+          "/GET"
+        ]
+      },
+      "policyResourceName": "/uris"
+    }
+  ],
+  "resourceName": "URIsAPI",
+  "apiName": "URIsAPI",
+  "functionArns": [
+    {
+      "lambdaFunction": "URIsFunction"
+    }
+  ],
+  "privacy": {
+    "auth": 1,
+    "unauth": 1,
+    "authRoleName": "amplify-nuxtsamplebackend-dev-220323-authRole",
+    "unAuthRoleName": "amplify-nuxtsamplebackend-dev-220323-unauthRole"
+  },
+  "dependsOn": [
+    {
+      "category": "function",
+      "resourceName": "URIsFunction",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    }
+  ]
+}

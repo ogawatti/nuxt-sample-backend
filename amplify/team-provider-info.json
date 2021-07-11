@@ -20,6 +20,15 @@
           "partitionKeyName": "uuid",
           "partitionKeyType": "S"
         }
+      },
+      "auth": {
+        "cognito8a0f85d1": {}
+      },
+      "function": {
+        "URIsFunction": {
+          "deploymentBucketName": "amplify-nuxtsamplebackend-dev-220323-deployment",
+          "s3Key": "amplify-builds/URIsFunction-7743326949584d6e3653-build.zip"
+        }
       }
     }
   }

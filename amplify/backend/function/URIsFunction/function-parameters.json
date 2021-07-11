@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "storage": {
+      "wattitest2": [
+        "read"
+      ]
+    }
+  },
+  "lambdaLayers": []
+}
